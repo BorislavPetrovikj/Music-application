@@ -13,7 +13,12 @@ class BrowseArtists extends Component {
         <div className="container">
           {this.state.artists.map((el) => {
             return (
-              <Browse id={el.id} covers={el.cover} name={el.name}></Browse>
+              <Browse
+                id={el.id}
+                covers={el.cover}
+                name={el.name}
+                albums={el.albums[0].cover}
+              ></Browse>
             );
           })}
         </div>
