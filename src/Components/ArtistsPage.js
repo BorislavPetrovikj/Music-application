@@ -1,7 +1,7 @@
 import React from "react";
 import artists from "../db";
 import Albums from "./Albums";
-import "./Header.css";
+import "./globalStyle.css";
 const ArtistsPage = (props) => {
   const currentEl = artists.find(
     (el) => el.id === parseInt(props.match.params.id)

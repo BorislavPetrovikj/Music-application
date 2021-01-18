@@ -1,4 +1,47 @@
-img {
-  width: 23%;
+.Logo {
+  width: 102%;
   display: block;
+  height: auto;
+  border-bottom: 15px solid#00FFFF;
+}
+img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+.container {
+  width: 33% !important;
+}
+h1 {
+  color: white;
+  font-size: 80px;
+  text-transform: uppercase;
+}
+h4 {
+  text-align: center;
+  background-color: #d3d3d3;
+  padding: 35px 0px 13px 0px;
+  margin: 0px;
+  color: black;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  position: relative;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Browse {
+  padding: 5px 30px 5px 30px;
+  background-color: #d3d3d3;
+}
+span {
+  background-color: #2196f3;
+  color: white;
+  padding: 10px;
 }

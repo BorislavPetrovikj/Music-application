@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css";
+import "./globalStyle.css";
 import { Link } from "react-router-dom";
 const Browse = (props) => {
   return (

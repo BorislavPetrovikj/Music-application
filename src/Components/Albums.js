@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css";
+
 const Albums = (props) => {
   return (
     <div className="Albums ">

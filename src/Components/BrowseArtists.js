@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import artists from "../db";
 import Browse from "./Browse";
-import "./Header.css";
+import "./globalStyle.css";
 class BrowseArtists extends Component {
   state = {
     artists: artists,
@@ -13,6 +13,7 @@ class BrowseArtists extends Component {
         <div className="container">
           <div className="row">
             <div className="col">
+              <h4>Browse the artists</h4>
               {this.state.artists.map((el) => {
                 return (
                   <Browse

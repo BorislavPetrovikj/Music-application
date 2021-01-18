@@ -1,7 +1,6 @@
 import React from "react";
 import logo from "../logo.jpg";
-import "./Header.css";
-
+import "./globalStyle.css";
 const Header = (props) => {
   return (
     <div className="Header">
@@ -9,7 +8,7 @@ const Header = (props) => {
         <div className="row">
           <div className="col ">
             <a href="/" className="navbar-brand">
-              <img src={logo} alt=""></img>
+              <img className="Logo" src={logo} alt=""></img>
               <div className="centered">
                 <h1>Music-Db</h1>
               </div>
