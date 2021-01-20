@@ -6,7 +6,8 @@ const Browse = (props) => {
     <div className="Browse Header">
       <Link to={`/Details/${props.id}`}>
         <img src={`/images/covers/${props.covers}.jpg`} alt="img" />
-        <span>{props.covers}</span>
+        <span>{props.name}</span>
+        {/* <figcaption>{props.name}</figcaption> */}
       </Link>
     </div>
   );

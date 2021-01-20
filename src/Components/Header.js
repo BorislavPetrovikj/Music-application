@@ -8,9 +8,27 @@ const Header = (props) => {
         <div className="row">
           <div className="col ">
             <a href="/" className="navbar-brand">
-              <img className="Logo" src={logo} alt=""></img>
+              <img
+                style={{
+                  width: "103%",
+                  display: "block",
+                  height: "auto",
+                  borderBottom: " 15px solid#00FFFF",
+                }}
+                className="Logo"
+                src={logo}
+                alt=""
+              ></img>
               <div className="centered">
-                <h1>Music-Db</h1>
+                <h1
+                  style={{
+                    fontSize: "3vw",
+                    color: "white",
+                    textTransform: "uppercase",
+                  }}
+                >
+                  Music-Db
+                </h1>
               </div>
             </a>
           </div>

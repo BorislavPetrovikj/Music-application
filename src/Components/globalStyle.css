@@ -1,20 +1,13 @@
-.Logo {
-  width: 102%;
-  display: block;
-  height: auto;
-  border-bottom: 15px solid#00FFFF;
-}
 img {
   width: 100%;
   display: block;
-  height: auto;
 }
+
 .container {
-  width: 33% !important;
+  width: 35% !important;
 }
 h1 {
-  color: white;
-  font-size: 80px;
+  font-size: 8vw;
   text-transform: uppercase;
 }
 h4 {
@@ -24,6 +17,7 @@ h4 {
   margin: 0px;
   color: black;
   font-weight: bold;
+  font-size: 2vw;
 }
 
 .navbar-brand {
@@ -37,11 +31,14 @@ h4 {
   transform: translate(-50%, -50%);
 }
 .Browse {
-  padding: 5px 30px 5px 30px;
+  padding: 10px 30px 10px 30px;
   background-color: #d3d3d3;
 }
 span {
+  position: relative;
+  bottom: 2vw;
   background-color: #2196f3;
   color: white;
-  padding: 10px;
+  padding: 0.6vw;
+  font-size: 1vw;
 }
