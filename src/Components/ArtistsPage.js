@@ -11,10 +11,21 @@ const ArtistsPage = (props) => {
     <div className="ArtistsPage Header">
       <div className="container">
         <div className="row">
-          <div className="col">
-            <img src={`/images/covers/${currentEl.cover}.jpg`} alt="img" />
+          <div className="col ">
+            <img
+              style={{
+                width: "35%",
+                margin: " auto",
+              }}
+              src={`/images/covers/${currentEl.cover}.jpg`}
+              alt="img"
+            />
             <p>{currentEl.bio}</p>
-            <Albums albums={currentEl.albums[1].cover} />
+            <Albums
+              albums={currentEl.albums[0].cover}
+              albums1={currentEl.albums[1].cover}
+              albums2={currentEl.albums[2].cover}
+            />
           </div>
         </div>
       </div>

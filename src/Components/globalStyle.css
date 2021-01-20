@@ -31,14 +31,20 @@ h4 {
   transform: translate(-50%, -50%);
 }
 .Browse {
-  padding: 10px 30px 10px 30px;
+  padding: 0px 30px 5px 30px;
   background-color: #d3d3d3;
 }
+
 span {
   position: relative;
   bottom: 2vw;
   background-color: #2196f3;
   color: white;
   padding: 0.6vw;
+  font-size: 1vw;
+}
+
+p {
+  padding: 10px;
   font-size: 1vw;
 }
