@@ -12,7 +12,7 @@ class BrowseArtists extends Component {
       <div className="BrowseArtists Header">
         <div className="container">
           <div className="row">
-            <div className="col">
+            <div className="col ">
               <h4>Browse the artists</h4>
               {this.state.artists.map((el) => {
                 return (

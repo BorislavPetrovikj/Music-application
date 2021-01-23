@@ -7,10 +7,10 @@ const Header = (props) => {
       <div className="container">
         <div className="row">
           <div className="col ">
-            <a href="/" className="navbar-brand">
+            <a href="/">
               <img
                 style={{
-                  width: "103%",
+                  width: "100%",
                   display: "block",
                   height: "auto",
                   borderBottom: " 15px solid#00FFFF",

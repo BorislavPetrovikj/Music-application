@@ -11,7 +11,7 @@ const ArtistsPage = (props) => {
     <div className="ArtistsPage Header">
       <div className="container">
         <div className="row">
-          <div className="col ">
+          <div className="col p-4 text-center">
             <img
               style={{
                 width: "35%",
@@ -20,11 +20,12 @@ const ArtistsPage = (props) => {
               src={`/images/covers/${currentEl.cover}.jpg`}
               alt="img"
             />
+            <h3 className="font-weight-bold pt-3">{currentEl.name}</h3>
             <p>{currentEl.bio}</p>
             <div className="row px-5 py-4">
               {currentEl.albums.map((Element) => {
                 return (
-                  <div className="col-md-6 p-0">
+                  <div className="col-md-6 p-1">
                     <Albums cover={Element.cover} />
                   </div>
                 );
