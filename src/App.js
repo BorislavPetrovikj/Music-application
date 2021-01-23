@@ -13,7 +13,6 @@ function App() {
         <Switch>
           <Route exact path="/" component={BrowseArtists} />
           <Route path="/Details/:id" component={ArtistsPage} />
-          {/* <Route component={Error} /> */}
         </Switch>
       </Router>
     </div>
