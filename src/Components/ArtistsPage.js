@@ -34,3 +34,15 @@ const ArtistsPage = (props) => {
 };
 
 export default ArtistsPage;
+
+
+<div className="ArtistsPage text-center bgGray">
+            <img key={currentEl.cover} src={require(`../../images/covers/${currentEl.cover}.jpg`).default} alt="img" className="w-25 py-4" />
+            <h2 className="nameArtistsPage pb-3" key={currentEl.name}>{currentEl.name}</h2>
+            <p className="mb-0" key={currentEl.bio}>{currentEl.bio}</p>
+            <div className="row px-5 py-4">
+                {currentEl.albums.map(elem => {
+                    return (
+                        <div className="col-md-6 p-0" >
+                            <Albums cover={elem.cover} />
+                        </div>
